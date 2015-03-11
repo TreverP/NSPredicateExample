@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		C969C1621AAA32B10005B85D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C969C1611AAA32B10005B85D /* AppDelegate.swift */; };
 		C969C1651AAA32B10005B85D /* Foodie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C969C1631AAA32B10005B85D /* Foodie.xcdatamodeld */; };
-		C969C1671AAA32B10005B85D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C969C1661AAA32B10005B85D /* ViewController.swift */; };
 		C969C16A1AAA32B10005B85D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C969C1681AAA32B10005B85D /* Main.storyboard */; };
 		C969C16C1AAA32B10005B85D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C969C16B1AAA32B10005B85D /* Images.xcassets */; };
-		C969C16F1AAA32B10005B85D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C969C16D1AAA32B10005B85D /* LaunchScreen.xib */; };
 		C969C17B1AAA32B20005B85D /* FoodieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C969C17A1AAA32B20005B85D /* FoodieTests.swift */; };
+		C969C1851AAA33B30005B85D /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C969C1841AAA33B30005B85D /* CoreDataManager.swift */; };
+		C969C1931AAA36570005B85D /* PeopleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C969C1921AAA36570005B85D /* PeopleTableViewController.swift */; };
+		C969C1951AAA36690005B85D /* MyFoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C969C1941AAA36690005B85D /* MyFoodTableViewController.swift */; };
+		C969C1971AAA36770005B85D /* AddFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C969C1961AAA36770005B85D /* AddFoodViewController.swift */; };
+		C969C1991AAA372F0005B85D /* AddPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C969C1981AAA372F0005B85D /* AddPersonViewController.swift */; };
+		C969C19B1AAA43970005B85D /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C969C19A1AAA43970005B85D /* Person.swift */; };
+		C969C19D1AAA43980005B85D /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = C969C19C1AAA43980005B85D /* Food.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +36,18 @@
 		C969C1601AAA32B10005B85D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C969C1611AAA32B10005B85D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C969C1641AAA32B10005B85D /* Foodie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Foodie.xcdatamodel; sourceTree = "<group>"; };
-		C969C1661AAA32B10005B85D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C969C1691AAA32B10005B85D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C969C16B1AAA32B10005B85D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C969C16E1AAA32B10005B85D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C969C1741AAA32B20005B85D /* FoodieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C969C1791AAA32B20005B85D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C969C17A1AAA32B20005B85D /* FoodieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodieTests.swift; sourceTree = "<group>"; };
+		C969C1841AAA33B30005B85D /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		C969C1921AAA36570005B85D /* PeopleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleTableViewController.swift; sourceTree = "<group>"; };
+		C969C1941AAA36690005B85D /* MyFoodTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFoodTableViewController.swift; sourceTree = "<group>"; };
+		C969C1961AAA36770005B85D /* AddFoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFoodViewController.swift; sourceTree = "<group>"; };
+		C969C1981AAA372F0005B85D /* AddPersonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPersonViewController.swift; sourceTree = "<group>"; };
+		C969C19A1AAA43970005B85D /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Person.swift; path = ../Person.swift; sourceTree = "<group>"; };
+		C969C19C1AAA43980005B85D /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Food.swift; path = ../Food.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +89,16 @@
 		C969C15E1AAA32B10005B85D /* Foodie */ = {
 			isa = PBXGroup;
 			children = (
-				C969C1611AAA32B10005B85D /* AppDelegate.swift */,
-				C969C1661AAA32B10005B85D /* ViewController.swift */,
+				C969C1921AAA36570005B85D /* PeopleTableViewController.swift */,
+				C969C1981AAA372F0005B85D /* AddPersonViewController.swift */,
+				C969C1941AAA36690005B85D /* MyFoodTableViewController.swift */,
+				C969C1961AAA36770005B85D /* AddFoodViewController.swift */,
 				C969C1681AAA32B10005B85D /* Main.storyboard */,
-				C969C16B1AAA32B10005B85D /* Images.xcassets */,
-				C969C16D1AAA32B10005B85D /* LaunchScreen.xib */,
 				C969C1631AAA32B10005B85D /* Foodie.xcdatamodeld */,
+				C969C19C1AAA43980005B85D /* Food.swift */,
+				C969C19A1AAA43970005B85D /* Person.swift */,
 				C969C15F1AAA32B10005B85D /* Supporting Files */,
+				C969C1841AAA33B30005B85D /* CoreDataManager.swift */,
 			);
 			path = Foodie;
 			sourceTree = "<group>";
@@ -93,6 +106,8 @@
 		C969C15F1AAA32B10005B85D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C969C1611AAA32B10005B85D /* AppDelegate.swift */,
+				C969C16B1AAA32B10005B85D /* Images.xcassets */,
 				C969C1601AAA32B10005B85D /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -196,7 +211,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C969C16A1AAA32B10005B85D /* Main.storyboard in Resources */,
-				C969C16F1AAA32B10005B85D /* LaunchScreen.xib in Resources */,
 				C969C16C1AAA32B10005B85D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,8 +229,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C969C1671AAA32B10005B85D /* ViewController.swift in Sources */,
+				C969C1951AAA36690005B85D /* MyFoodTableViewController.swift in Sources */,
+				C969C1991AAA372F0005B85D /* AddPersonViewController.swift in Sources */,
 				C969C1621AAA32B10005B85D /* AppDelegate.swift in Sources */,
+				C969C1851AAA33B30005B85D /* CoreDataManager.swift in Sources */,
+				C969C1931AAA36570005B85D /* PeopleTableViewController.swift in Sources */,
+				C969C19D1AAA43980005B85D /* Food.swift in Sources */,
+				C969C1971AAA36770005B85D /* AddFoodViewController.swift in Sources */,
+				C969C19B1AAA43970005B85D /* Person.swift in Sources */,
 				C969C1651AAA32B10005B85D /* Foodie.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,14 +266,6 @@
 				C969C1691AAA32B10005B85D /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C969C16D1AAA32B10005B85D /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C969C16E1AAA32B10005B85D /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -345,6 +357,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Foodie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -355,6 +368,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Foodie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -373,6 +387,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = FoodieTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Foodie.app/Foodie";
@@ -388,6 +403,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = FoodieTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Foodie.app/Foodie";
@@ -413,6 +429,7 @@
 				C969C1801AAA32B20005B85D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C969C1811AAA32B20005B85D /* Build configuration list for PBXNativeTarget "FoodieTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +438,7 @@
 				C969C1831AAA32B20005B85D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
